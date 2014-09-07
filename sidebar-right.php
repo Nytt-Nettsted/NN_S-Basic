@@ -5,11 +5,11 @@
  * @package _s
  */
 
-if ( ! is_active_sidebar( 'sidebar-left' ) ) {
+if ( ! is_active_sidebar( 'sidebar-right' ) ) {
 	return;
 }
 ?>
 
 <div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-left' ); ?>
+	<?php dynamic_sidebar( 'sidebar-right' ); ?>
 </div><!-- #secondary -->
