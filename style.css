@@ -90,7 +90,6 @@ body {
 article,
 aside,
 details,
-figcaption,
 figure,
 footer,
 header,
@@ -98,6 +97,15 @@ main,
 nav,
 section {
 	display: block;
+}
+
+figcaption {
+	display: block;
+	text-transform: uppercase;
+	background: rgba(255,255,255,0.8);
+	padding: 15px;
+	position: relative;
+	bottom: 60px;
 }
 
 ol,
@@ -574,7 +582,7 @@ a:active {
 .alignleft {
 	display: inline;
 	float: left;
-	margin-right: 1.5em;
+	margin-right: 0.5em;
 }
 
 .alignright {
@@ -662,6 +670,7 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	border: 3px solid green;
 }
 
 .page-links {
