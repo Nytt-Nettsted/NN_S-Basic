@@ -807,7 +807,7 @@ object {
 #page { 
 	margin: 0 auto; 
 	width: 1200px; 
-	background: #ffffff /* url("img_tree.png") */ no-repeat right top; 
+	background: none /* url("img_tree.png") */ no-repeat right top; 
 }
 
 .site-header {
