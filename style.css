@@ -485,7 +485,7 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #191919;
 }
 
 .main-navigation ul ul {
@@ -832,7 +832,11 @@ object {
 #page { 
 	margin: 0 auto; 
 	width: 1200px; 
-	background: none /* url("img_tree.png") */ no-repeat right top; 
+	background: #fff /* url("img_tree.png") */ no-repeat right top; 
+}
+
+.page-template-fullwidth-php #primary {
+	width: 100%;
 }
 
 .site-header {
@@ -842,6 +846,8 @@ object {
 
 .site-header .site-branding {
 	margin: 0 0;
+	width: 100%;
+/*	background: #000 no-repeat right top; */
 }
 
 .site-header .site-title {
