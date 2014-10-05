@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying fullwidth pages.
+ * Template Name: Fullwidth
  *
- * This is the template that displays all pages by default.
+ * This is the template that displays fullwidthpages.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
