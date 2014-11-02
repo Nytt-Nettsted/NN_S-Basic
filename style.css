@@ -109,13 +109,14 @@ aside {
 
 #primary {
 	float: left;
-	width: 67%;
+	width: 70%;
+	padding: 0 3em 0 0;
 	outline: solid orange;
 }
 
 #secondary, #secondary-right {
 	float: left;
-	width: 33%;
+	width: 30%;
 	outline: solid yellow;
 }
 
@@ -196,10 +197,11 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: Roboto, sans-serif;
 }
 
 p {
-	margin-bottom: 0.15em;
+	margin-bottom: 0.5em;
 }
 
 b,
@@ -291,6 +293,7 @@ hr {
 ul,
 ol {
 	margin: 0 0 0.15em 0.3em;
+	padding 0 0 0 0.5em;
 }
 
 ul {
@@ -851,7 +854,7 @@ object {
 }
 
 .site-header .site-title {
-	font: 5em/1.5em Helvetica, serif;
+	font: 5em/1.5em Roboto, sans-serif;
 	padding: 0 0 0 .5em;
 }
 
