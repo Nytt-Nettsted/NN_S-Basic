@@ -105,7 +105,6 @@ section {
 
 aside {
 	display: block;
-	padding: 0 0 0 3em;
 }
 
 #primary {
@@ -114,10 +113,20 @@ aside {
 	outline: solid orange;
 }
 
+#secondary, #secondary-left {
+	float: left;
+	width: 33%;
+	outline: solid yellow;
+}
+
 #secondary, #secondary-right {
 	float: left;
 	width: 33%;
 	outline: solid yellow;
+}
+
+#secondary .widget-area {
+	padding: 0 0 0 1.5em;
 }
 
 figcaption {
