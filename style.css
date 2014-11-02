@@ -103,7 +103,7 @@ section {
 	outline: solid green;
 }
 
-.site-content footer #secondary {
+footer .widget-area {
 	width: 33%;
 }
 
