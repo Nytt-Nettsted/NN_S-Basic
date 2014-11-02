@@ -103,10 +103,6 @@ section {
 	outline: solid green;
 }
 
-footer .widget-area {
-	width: 33%;
-}
-
 aside {
 	display: block;
 	padding: 0 0 0 3em;
@@ -114,13 +110,13 @@ aside {
 
 #primary {
 	float: left;
-	width: 70%;
+	width: 67%;
 	outline: solid orange;
 }
 
 #secondary, #secondary-right {
 	float: left;
-	width: 30%;
+	width: 33%;
 	outline: solid yellow;
 }
 
