@@ -140,6 +140,7 @@ figcaption {
 
 .site-info {
 	float: left;
+	margin: 2em 0 0;
 	outline: solid pink;
 }
 
