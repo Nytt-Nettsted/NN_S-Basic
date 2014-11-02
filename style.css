@@ -103,6 +103,10 @@ section {
 	outline: solid green;
 }
 
+.site-content, footer #secondary {
+	width: 33%;
+}
+
 aside {
 	display: block;
 	padding: 0 0 0 3em;
