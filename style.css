@@ -137,6 +137,7 @@ figcaption {
 ol,
 ul {
 	list-style: none;
+	padding: 0 0 0 0.5em;
 }
 
 table { /* tables still need 'cellspacing="0"' in the markup */
@@ -184,7 +185,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
