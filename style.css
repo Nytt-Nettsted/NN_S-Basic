@@ -98,6 +98,10 @@ section {
 	display: block;
 }
 
+main {
+	padding: 0 3em 0 0;
+}
+
 .site-content, footer {
 	padding: 2em 3em;
 	outline: solid green;
@@ -110,7 +114,6 @@ aside {
 #primary {
 	float: left;
 	width: 70%;
-	padding: 0 3em 0 0;
 	outline: solid orange;
 }
 
@@ -207,7 +210,7 @@ p {
 
 b,
 strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 dfn,
@@ -218,7 +221,7 @@ i {
 }
 
 blockquote {
-	margin: 0 0.15em;
+	margin: 0 0.5em;
 }
 
 address {
@@ -308,11 +311,11 @@ ol {
 li > ul,
 li > ol {
 	margin-bottom: 0;
-	margin-left: 0.15em;
+	margin-left: 0.5em;
 }
 
 dt {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 dd {
@@ -334,7 +337,7 @@ table {
 }
 
 th {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -595,7 +598,7 @@ a:active {
 	color: #21759b;
 	display: block;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 700;
 	height: auto;
 	left: 5px;
 	line-height: normal;
@@ -659,7 +662,7 @@ a:active {
 9.0 Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 0.15em;
+	margin: 0 0 0.5em;
 }
 
 /* Make sure select elements fit in widgets */
